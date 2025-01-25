@@ -1,6 +1,5 @@
 "use client"
 
-import { useState } from "react"
 import { Github, Linkedin, Mail, FileDown, ExternalLink } from "lucide-react"
 import Image from "next/image"
 import { motion } from "framer-motion"
@@ -60,9 +59,9 @@ function About() {
     >
       <h2 className="text-2xl font-bold mb-4 text-red-500">About Me</h2>
       <p className="text-gray-300">
-        I'm a passionate software engineer with 5 years of experience in building web applications. I specialize in
+        Im a passionate software engineer with 5 years of experience in building web applications. I specialize in
         JavaScript, React, and Node.js. I love solving complex problems and creating user-friendly interfaces that make
-        a positive impact on people's lives. My goal is to contribute to innovative projects that push the boundaries of
+        a positive impact on peoples lives. My goal is to contribute to innovative projects that push the boundaries of
         technology.
       </p>
     </motion.section>
