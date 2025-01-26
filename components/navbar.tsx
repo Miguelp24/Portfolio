@@ -14,7 +14,7 @@ const Navbar = () => {
       <header>
         <nav role="navigation" className="fixed top-[100px] z-50 flex w-full justify-between">
           {/* Left Section - Vertical Buttons */}
-          <ul className="flex flex-col items-center gap-5 ml-[-200]">
+          <ul className="flex flex-col items-center gap-5 ml-[-500]">
             <li className="group" key="home">
               <Link href={'#home'} aria-label="Go to Home Section">
                 <PiHouseLineBold className="h-7 w-7 text-red-500 hover:scale-110 hover:text-white" />
