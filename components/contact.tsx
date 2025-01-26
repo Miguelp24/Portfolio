@@ -6,6 +6,7 @@ import { motion } from "framer-motion"
 function Contact() {
     return (
       <motion.section
+      id="contact"
         className="bg-gray-800 p-6 rounded-lg shadow-md"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

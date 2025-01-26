@@ -6,6 +6,7 @@ import {
   PiClockCounterClockwiseBold,
   PiHouseLineBold,
   PiInfoBold,
+  PiPhoneBold,
 } from 'react-icons/pi';
 
 const Navbar = () => {
@@ -33,6 +34,11 @@ const Navbar = () => {
             <li className="group" key="projects">
               <Link href={'#projects'} aria-label="Go to Project Section">
                 <PiBriefcaseBold className="h-7 w-7 text-red-500 hover:scale-110 hover:text-white" />
+              </Link>
+            </li>
+            <li className="group" key="contact">
+              <Link href={'#contact'} aria-label="Go to Project Section">
+                <PiPhoneBold className="h-7 w-7 text-red-500 hover:scale-110 hover:text-white" />
               </Link>
             </li>
           </ul>
