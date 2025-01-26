@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 function About() {
     return (
       <motion.section
+        id="about"
         className="mb-12 bg-gray-800 p-6 rounded-lg shadow-md"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

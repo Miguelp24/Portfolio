@@ -29,6 +29,7 @@ function Projects() {
   
     return (
       <motion.section
+      id="projects"
         className="mb-12 bg-gray-800 p-6 rounded-lg shadow-md"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
