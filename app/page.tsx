@@ -28,19 +28,19 @@ function Header() {
       transition={{ duration: 0.5 }}
     >
       <Image
-        src="/placeholder.svg?height=150&width=150"
-        alt="John Doe"
+        src="/images/foto2.jpg"
+        alt="Miguel Pinto"
         width={150}
         height={150}
         className="mx-auto rounded-full border-4 border-red-500 shadow-lg"
       />
-      <h1 className="mt-4 text-4xl font-bold">John Doe</h1>
-      <p className="mt-2 text-xl text-gray-400">Software Engineer</p>
+      <h1 className="mt-4 text-4xl font-bold">Miguel Pinto</h1>
+      <p className="mt-2 text-xl text-gray-400">Engenheiro de Software</p>
       <motion.button
         className="mt-6 bg-red-600 text-white px-6 py-2 rounded-full font-semibold shadow-md hover:bg-red-700 transition duration-300 flex items-center justify-center mx-auto"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        onClick={() => window.open("/path-to-your-cv.pdf", "_blank")}
+        onClick={() => window.open("/CV.pdf", "_blank")}
       >
         <FileDown className="w-5 h-5 mr-2" />
         Download CV
@@ -57,19 +57,20 @@ function About() {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.2, duration: 0.5 }}
     >
-      <h2 className="text-2xl font-bold mb-4 text-red-500">About Me</h2>
+      <h2 className="text-2xl font-bold mb-4 text-red-500">Sobre mim</h2>
       <p className="text-gray-300">
-        Im a passionate software engineer with 5 years of experience in building web applications. I specialize in
-        JavaScript, React, and Node.js. I love solving complex problems and creating user-friendly interfaces that make
-        a positive impact on peoples lives. My goal is to contribute to innovative projects that push the boundaries of
-        technology.
+        Estou no terceiro ano da licenciatura em Engenharia Informática e
+        gosto muito da área onde estou integrado, apesar de ainda não ter
+        nenhuma experiência profissional tenho vontade de aprender e a
+        capacidade de adaptar rapidamente a novas tecnologias.
+
       </p>
     </motion.section>
   )
 }
 
 function Skills() {
-  const skills = ["JavaScript", "TypeScript", "React", "Node.js", "Python", "SQL", "Git", "AWS", "Docker", "GraphQL"]
+  const skills = ["JavaScript","Node.js",".NET", "HTML", "C#", "C++", "C", "Python", "SQL", "Git"]
 
   return (
     <motion.section
@@ -78,7 +79,7 @@ function Skills() {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.4, duration: 0.5 }}
     >
-      <h2 className="text-2xl font-bold mb-4 text-red-500">Skills</h2>
+      <h2 className="text-2xl font-bold mb-4 text-red-500">Competencias</h2>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill, index) => (
           <motion.span
@@ -99,23 +100,30 @@ function Skills() {
 function Experience() {
   const experiences = [
     {
-      title: "Senior Software Engineer",
-      company: "Tech Innovators Inc.",
-      period: "2020 - Present",
-      description: "Lead development of scalable web applications using React and Node.js.",
+      title: "Licenciatura em Engenharia Informática",
+      company: "UTAD",
+      period: "2022 - Presente",
+      description: "",
     },
     {
-      title: "Software Engineer",
-      company: "Digital Solutions Ltd.",
-      period: "2018 - 2020",
-      description: "Developed and maintained full-stack applications for various clients.",
+      title: "Colaborador do Nucleo de estudantes de Engenharia Informática",
+      company: "NEEI",
+      period: "2022 - Presente",
+      description: "Departamento pedagógico",
     },
     {
-      title: "Junior Developer",
-      company: "StartUp Ventures",
-      period: "2016 - 2018",
-      description: "Assisted in the development of mobile apps using React Native.",
+      title: "Colaborador da Associação Académica Trás-os-Montes e Alto Douro",
+      company: "AAUTAD",
+      period: "2023 - Presente",
+      description: "Departamento de apoio as tecnologias",
     },
+    {
+      title: "A procura de emprego",
+      company: "",
+      period: "2025 - Presente",
+      description: "",
+    },
+    
   ]
 
   return (
@@ -125,7 +133,7 @@ function Experience() {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.6, duration: 0.5 }}
     >
-      <h2 className="text-2xl font-bold mb-6 text-red-500">Experience</h2>
+      <h2 className="text-2xl font-bold mb-6 text-red-500">Experiencia</h2>
       <div className="relative border-l-2 border-red-500">
         {experiences.map((exp, index) => (
           <motion.div
@@ -209,10 +217,10 @@ function Contact() {
       animate={{ opacity: 1 }}
       transition={{ delay: 1, duration: 0.5 }}
     >
-      <h2 className="text-2xl font-bold mb-4 text-red-500">Contact</h2>
+      <h2 className="text-2xl font-bold mb-4 text-red-500">Contacto</h2>
       <div className="flex justify-center space-x-6">
         <motion.a
-          href="#"
+          href="https://github.com/Miguelp24"
           className="text-gray-400 hover:text-red-500 transition duration-300"
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
@@ -220,7 +228,7 @@ function Contact() {
           <Github className="w-8 h-8" />
         </motion.a>
         <motion.a
-          href="#"
+          href="https://www.linkedin.com/in/miguel-pinto-594603258/"
           className="text-gray-400 hover:text-red-500 transition duration-300"
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
@@ -228,7 +236,7 @@ function Contact() {
           <Linkedin className="w-8 h-8" />
         </motion.a>
         <motion.a
-          href="#"
+          href="mailto:mcpinto2004@gmail.com"
           className="text-gray-400 hover:text-red-500 transition duration-300"
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
