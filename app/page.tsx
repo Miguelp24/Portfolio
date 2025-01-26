@@ -35,7 +35,7 @@ function Header() {
         className="mx-auto rounded-full border-4 border-red-500 shadow-lg"
       />
       <h1 className="mt-4 text-4xl font-bold">Miguel Pinto</h1>
-      <p className="mt-2 text-xl text-gray-400">Engenheiro de Software</p>
+      <p className="mt-2 text-xl text-gray-400">Engenheiro Informático</p>
       <motion.button
         className="mt-6 bg-red-600 text-white px-6 py-2 rounded-full font-semibold shadow-md hover:bg-red-700 transition duration-300 flex items-center justify-center mx-auto"
         whileHover={{ scale: 1.05 }}
@@ -117,12 +117,6 @@ function Experience() {
       period: "2023 - Presente",
       description: "Departamento de apoio as tecnologias",
     },
-    {
-      title: "A procura de emprego",
-      company: "",
-      period: "2025 - Presente",
-      description: "",
-    },
     
   ]
 
@@ -134,7 +128,7 @@ function Experience() {
       transition={{ delay: 0.6, duration: 0.5 }}
     >
       <h2 className="text-2xl font-bold mb-6 text-red-500">Experiencia</h2>
-      <div className="relative border-l-2 border-red-500">
+      <div className="relative">
         {experiences.map((exp, index) => (
           <motion.div
             key={index}
@@ -144,6 +138,9 @@ function Experience() {
             transition={{ delay: 0.2 * index, duration: 0.3 }}
           >
             <div className="absolute w-3 h-3 bg-red-500 rounded-full mt-1.5 -left-1.5 border border-gray-900" />
+            {index !== experiences.length - 1 && (
+              <div className="absolute h-52 w-0.5 bg-red-500 left-0 -ml-0.5 mt-3" />
+            )}
             <div className="flex flex-wrap items-center mb-1">
               <h3 className="text-lg font-semibold text-gray-100 mr-2">{exp.title}</h3>
               <span className="text-sm text-gray-400">| {exp.company}</span>
@@ -160,19 +157,24 @@ function Experience() {
 function Projects() {
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "Built a full-stack e-commerce platform using React, Node.js, and MongoDB.",
-      link: "#",
+      title: "Portfolio Website",
+      description: "Portfolio website feito em Next.js e Tailwind CSS.",
+      link: "https://github.com/Miguelp24/Portfolio",
     },
     {
-      title: "Task Management App",
-      description: "Developed a real-time task management application using React and Firebase.",
-      link: "#",
+      title: "Biblioteca Online",
+      description: "Biblioteca online com recursos de getão de livros e de emprestimos, feita em .NET e SQL Server.",
+      link: "https://github.com/Miguelp24/Trab_Biblioteca",
     },
     {
-      title: "Data Visualization Dashboard",
-      description: "Created an interactive dashboard for visualizing complex datasets using D3.js and React.",
-      link: "#",
+      title: "To do List",
+      description: "Aplicaçaõ de gestão de tarefas feita em C#",
+      link: "https://github.com/Miguelp24/TrabLab-ToDoList",
+    },
+    {
+      title: "Caixeiro Viajante",
+      description: "Solução criada no âmbito do concurso realizado na UTAD, Hackathon Code&Conqueer",
+      link: "https://github.com/Miguelp24/Hackthon",
     },
   ]
 
@@ -183,7 +185,7 @@ function Projects() {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.8, duration: 0.5 }}
     >
-      <h2 className="text-2xl font-bold mb-4 text-red-500">Projects</h2>
+      <h2 className="text-2xl font-bold mb-4 text-red-500">Projetos</h2>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
           <motion.div
@@ -199,7 +201,7 @@ function Projects() {
               href={project.link}
               className="text-red-400 hover:text-red-300 transition duration-300 flex items-center"
             >
-              Learn more
+              Ver código
               <ExternalLink className="w-4 h-4 ml-1" />
             </a>
           </motion.div>
