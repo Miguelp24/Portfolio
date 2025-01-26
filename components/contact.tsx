@@ -11,7 +11,7 @@ function Contact() {
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 0.5 }}
       >
-        <h2 className="text-2xl font-bold mb-4 text-red-500">Contactos</h2>
+        <h2 className="text-3xl font-mono font-bold mb-4 text-red-500">Contactos</h2>
         <div className="flex justify-center space-x-6">
           <motion.a
             href="https://github.com/Miguelp24"

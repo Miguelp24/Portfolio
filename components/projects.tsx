@@ -34,7 +34,7 @@ function Projects() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8, duration: 0.5 }}
       >
-        <h2 className="text-2xl font-bold mb-4 text-red-500">Projetos</h2>
+        <h2 className="text-3xl font-mono font-bold mb-4 text-red-500">Projetos</h2>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
             <motion.div

@@ -19,8 +19,8 @@ function Header() {
           height={150}
           className="mx-auto rounded-full border-4 border-red-500 shadow-lg"
         />
-        <h1 className="mt-4 text-4xl font-bold">Miguel Pinto</h1>
-        <p className="mt-2 text-xl text-gray-400">Engenheiro Informático</p>
+        <h1 className="mt-4 text-5xl font-mono font-bold">Miguel Pinto</h1>
+        <p className="mt-2 text-2xl font-mono text-gray-400">Engenheiro Informático</p>
         <motion.button
           className="mt-6 bg-red-600 text-white px-6 py-2 rounded-full font-semibold shadow-md hover:bg-red-700 transition duration-300 flex items-center justify-center mx-auto"
           whileHover={{ scale: 1.05 }}
