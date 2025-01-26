@@ -13,7 +13,7 @@ function Skills() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4, duration: 0.5 }}
       >
-        <h2 className="text-2xl font-bold mb-4 text-red-500">Competencias</h2>
+        <h2 className="text-2xl font-bold mb-4 text-red-500">Competências</h2>
         <div className="flex flex-wrap gap-2">
           {skills.map((skill, index) => (
             <motion.span

@@ -32,7 +32,7 @@ function Experience() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.6, duration: 0.5 }}
       >
-      <h2 className="text-2xl font-bold mb-6 text-red-500">Experience</h2>
+      <h2 className="text-2xl font-bold mb-6 text-red-500">Experiência</h2>
       <div className="relative border-l-2 border-red-500">
         {experiences.map((exp, index) => (
           <motion.div
