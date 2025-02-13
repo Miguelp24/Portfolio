@@ -13,7 +13,7 @@ function Header() {
         transition={{ duration: 0.5 }}
       >
         <Image
-          src="/images/aautad_foto2.jpg"
+          src="/images/aautadfoto.jpg"
           alt="Miguel Pinto"
           width={200}
           height={200}
