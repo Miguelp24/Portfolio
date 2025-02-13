@@ -15,8 +15,8 @@ function Header() {
         <Image
           src="/images/aautadfoto.jpg"
           alt="Miguel Pinto"
-          width={200}
-          height={200}
+          width={150}
+          height={150}
           className="mx-auto rounded-full border-4 border-red-500 shadow-lg"
         />
         <h1 className="mt-4 text-5xl font-mono font-bold">Miguel Pinto</h1>
