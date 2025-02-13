@@ -16,6 +16,7 @@ function Contact() {
         <div className="flex justify-center space-x-6">
           <motion.a
             href="https://github.com/Miguelp24"
+            target="_blank"
             className="text-gray-400 hover:text-red-500 transition duration-300"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
@@ -24,6 +25,7 @@ function Contact() {
           </motion.a>
           <motion.a
             href="https://www.linkedin.com/in/miguel-pinto-594603258/"
+            target="_blank"
             className="text-gray-400 hover:text-red-500 transition duration-300"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}

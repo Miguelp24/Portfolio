@@ -6,8 +6,8 @@ import { motion } from "framer-motion"
 function Projects() {
     const projects = [
       {
-        title: "Portfolio Website",
-        description: "Portfolio website feito em Next.js e Tailwind CSS.",
+        title: "Portfólio Website",
+        description: "Portfólio website feito em Next.js e Tailwind CSS.",
         link: "https://github.com/Miguelp24/Portfolio",
       },
       {
@@ -29,7 +29,7 @@ function Projects() {
   
     return (
       <motion.section
-      id="projects"
+        id="projects"
         className="mb-12 bg-gray-800 p-6 rounded-lg shadow-md"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -49,6 +49,7 @@ function Projects() {
               <p className="text-gray-300 mb-4">{project.description}</p>
               <a
                 href={project.link}
+                target="_blank"
                 className="text-red-400 hover:text-red-300 transition duration-300 flex items-center"
               >
                 Ver código

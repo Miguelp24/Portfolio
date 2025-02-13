@@ -13,10 +13,10 @@ function Header() {
         transition={{ duration: 0.5 }}
       >
         <Image
-          src="/images/foto2.jpg"
+          src="/images/aautad_foto.jpg"
           alt="Miguel Pinto"
-          width={150}
-          height={150}
+          width={200}
+          height={200}
           className="mx-auto rounded-full border-4 border-red-500 shadow-lg"
         />
         <h1 className="mt-4 text-5xl font-mono font-bold">Miguel Pinto</h1>
@@ -25,7 +25,7 @@ function Header() {
           className="mt-6 bg-red-600 text-white px-6 py-2 rounded-full font-semibold shadow-md hover:bg-red-700 transition duration-300 flex items-center justify-center mx-auto"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          onClick={() => window.open("/CV.pdf", "_blank")}
+          onClick={() => window.open("/MiguelPintoCV.pdf", "_blank")}
         >
           <FileDown className="w-5 h-5 mr-2" />
           Download CV
