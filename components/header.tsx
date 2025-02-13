@@ -13,10 +13,10 @@ function Header() {
         transition={{ duration: 0.5 }}
       >
         <Image
-          src="/images/aautadfoto.jpg"
+          src="/images/aautadfoto.JPG"
           alt="Miguel Pinto"
-          width={150}
-          height={150}
+          width={200}
+          height={200}
           className="mx-auto rounded-full border-4 border-red-500 shadow-lg"
         />
         <h1 className="mt-4 text-5xl font-mono font-bold">Miguel Pinto</h1>
