@@ -12,7 +12,7 @@ function Projects() {
       },
       {
         title: "Biblioteca Online",
-        description: "Biblioteca online com recursos de getão de livros e de emprestimos, feita em .NET e SQL Server.",
+        description: "Biblioteca online com recursos de getão de livros e de emprestimos, feita em .NET e SQL Server",
         link: "https://github.com/Miguelp24/Trab_Biblioteca",
       },
       {
@@ -24,6 +24,11 @@ function Projects() {
         title: "Caixeiro Viajante",
         description: "Solução criada no âmbito do concurso realizado na UTAD, Hackathon Code&Conqueer",
         link: "https://github.com/Miguelp24/Hackthon",
+      },
+      {
+        title: "Gestor financeiro para jovens",
+        description: "Aplicação mobile completa criada para o projeto final de curso, feita em React Native e PostegreSQL",
+        link: "https://github.com/Miguelp24/Gestor-Financeiro",
       },
     ]
   

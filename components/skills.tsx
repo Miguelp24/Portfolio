@@ -4,8 +4,8 @@ import { motion } from "framer-motion"
 
 
 function Skills() {
-    const skills = ["JavaScript","Node.js",".NET", "HTML", "C#", "C++", "C", "Python", "SQL", "Git"]
-  
+    const skills = ["JavaScript", "TypeScript", "CSS", "React", "Node.js", ".NET", "HTML", "C#", "C++", "C", "Python", "SQL", "Git"]
+
     return (
       <motion.section
         className="mb-12 bg-gray-800 p-6 rounded-lg shadow-md"

@@ -5,21 +5,27 @@ import { motion } from "framer-motion"
 function Experience() {
     const experiences = [
         {
+            title: "Engenheiro Informático Estagiário",
+            company: "Arquiconsult",
+            period: "2025 - Presente",
+            description: "",
+        },
+        {
             title: "Licenciatura em Engenharia Informática",
             company: "UTAD",
-            period: "2022 - Presente",
+            period: "2022 - 2025",
             description: "",
         },
         {
             title: "Colaborador do Nucleo de estudantes de Engenharia Informática",
             company: "NEEI",
-            period: "2022 - Presente",
+            period: "2022 - 2025",
             description: "Departamento pedagógico",
         },
         {
             title: "Colaborador da Associação Académica Trás-os-Montes e Alto Douro",
             company: "AAUTAD",
-            period: "2023 - Presente",
+            period: "2023 - 2025",
             description: "Departamento de apoio as tecnologias",
         },
       
