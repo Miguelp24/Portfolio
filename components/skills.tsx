@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 
 function Skills() {
-    const skills = ["JavaScript", "TypeScript", "CSS", "React", "Node.js", ".NET", "HTML", "C#", "C++", "C", "Python", "SQL", "Git"]
+    const skills = ["JavaScript", "TypeScript", "CSS", "React", "Node.js", ".NET", "HTML", "C#", "C++", "C", "Python", "SQL", "Power BI", "Git"]
 
     return (
       <motion.section
